@@ -19,6 +19,8 @@ D. Bryant, R. Bouckaert, J. Felsenstein, N.A. Rosenberg, A. RoyChoudhury : Infer
  SimSnappNet generates SNPs data according to a Markovian process that evolved along gene tree branches. The gene tree is random and is obtained according to the Multispecies Network Coalescent (i.e. a coalescent process that evolves inside a phylogenetic network). 
 Although SNPS data are generated, SimSnappNet returns only count data ....
 
+This count data can be analyzed with SnappNetForSimSnappNet (see the repository on github). 
+
 ***********************************************************************************************************************************
 
  SimSnappNet is described at http://charles-elie.rabier.pagesperso-orange.fr/doc/SimSnappNet.html
