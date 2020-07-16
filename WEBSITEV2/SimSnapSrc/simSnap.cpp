@@ -377,7 +377,7 @@ int main(int argc, char* argv[]) {
 	if (ntrees<=0)
 		printUsage(cerr);
 	
-	cerr<<"Simulating data from "<<ntrees<<" species trees\n";
+	cerr<<"Simulating data from "<<ntrees<<" species network\n";
 	cerr<<"Mutation rates u = "<<u<<" v = "<<v<<"\n";
 	cerr<<"Number of sites = "<<ap.nsites<<"\n";
 	cerr<<"Number of trees = "<<ntrees<<"\n";

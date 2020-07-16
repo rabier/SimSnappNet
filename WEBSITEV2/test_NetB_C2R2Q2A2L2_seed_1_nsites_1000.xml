@@ -1,0 +1,140 @@
+<!-- Generated with SimSnapNet -->
+<!-- -->
+<!-- u = 1 v = 1   -->
+
+<beast namespace='beast.core:beast.core.util:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.branchratemodel:beast.evolution.likelihood' version='2.4'>
+<map name='Uniform'>beast.math.distributions.Uniform</map>
+<map name='Exponential'>beast.math.distributions.Exponential</map>
+<map name='LogNormal'>beast.math.distributions.LogNormalDistributionModel</map>
+<map name='Normal'>beast.math.distributions.Normal</map>
+<map name='Beta'>beast.math.distributions.Beta</map>
+<map name='Gamma'>beast.math.distributions.Gamma</map>
+<map name='LaplaceDistribution'>beast.math.distributions.LaplaceDistribution</map>
+<map name='InverseGamma'>beast.math.distributions.InverseGamma</map>
+<map name='OneOnX'>beast.math.distributions.OneOnX</map>
+<map name='prior'>beast.math.distributions.Prior</map>
+	<data spec='snappNetForSimSnappNet.core.SnapData' id='snapalignment' name='alignment' dataType='integer'  statecount='3'>
+	<rawdata  id='rawdata' spec='Alignment' dataType='integer'>
+		<sequence taxon='C1' totalcount='3'>
+0,2,2,2,2,0,0,2,1,2,2,2,0,2,0,2,0,0,0,2,0,2,0,2,2,2,2,0,0,0,0,0,0,0,2,2,2,2,2,2,0,0,2,0,0,2,2,0,2,2,2,2,2,0,0,0,0,2,2,2,0,0,0,2,0,0,0,2,0,0,0,2,2,2,2,0,0,0,2,2,0,0,2,0,2,2,0,2,0,2,0,0,0,0,0,2,2,0,0,0,0,0,2,0,2,2,2,2,2,2,2,2,2,0,2,2,2,2,0,0,0,2,2,0,2,2,0,2,2,0,2,2,2,2,2,0,0,2,0,0,2,2,0,0,0,2,0,2,2,1,0,0,1,0,0,0,0,0,0,0,0,0,2,0,0,2,0,0,0,2,2,0,0,2,2,2,2,0,2,0,0,2,0,2,0,0,2,2,0,0,2,2,0,2,0,0,0,2,2,0,0,0,0,2,2,2,2,0,2,0,0,0,0,2,0,2,2,0,0,0,0,0,0,0,0,2,2,2,0,0,0,0,2,0,2,0,2,0,2,0,0,2,0,0,0,2,2,2,0,0,2,0,2,2,0,2,0,2,0,2,0,0,0,2,2,2,2,0,2,0,0,0,2,0,0,2,2,2,2,2,0,0,0,2,2,0,2,0,2,2,0,0,2,2,0,0,2,0,0,2,0,2,2,2,0,2,0,0,0,0,2,2,0,0,2,0,2,2,2,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,2,0,0,2,0,2,0,0,0,0,0,2,2,0,0,0,0,0,2,0,2,0,0,2,2,2,0,0,2,0,2,2,2,2,0,2,0,2,2,0,0,2,2,2,0,0,0,2,0,2,0,0,2,2,0,2,0,2,0,2,2,0,0,0,0,2,2,2,2,0,0,2,2,2,2,0,2,2,2,0,2,2,2,2,0,0,0,0,0,2,0,2,0,0,0,2,0,0,2,2,2,2,2,0,2,2,2,0,2,0,2,2,0,2,2,0,0,2,0,2,0,2,2,0,0,2,0,2,2,2,2,0,0,0,2,2,2,2,0,2,0,2,2,0,2,0,2,2,2,0,0,0,0,2,0,0,0,0,0,0,0,2,2,2,2,0,0,0,0,0,0,2,0,2,0,0,0,0,0,2,0,0,0,0,2,0,0,0,0,2,2,2,0,0,0,0,0,2,2,0,0,2,0,0,2,2,2,2,2,0,0,0,2,0,0,2,0,0,2,0,0,0,2,0,0,0,2,2,2,0,2,2,2,2,2,0,2,0,0,0,0,0,2,2,2,2,0,2,2,0,2,0,2,0,0,2,2,2,2,0,0,2,0,0,0,0,2,0,2,0,2,2,2,2,2,2,0,0,2,2,2,2,0,2,0,2,0,2,2,0,2,0,0,0,0,2,2,2,2,0,0,0,0,0,0,2,2,0,0,0,2,2,2,2,0,0,0,2,0,0,0,0,2,2,0,2,0,0,2,2,2,0,0,2,2,0,0,2,2,0,2,2,0,2,2,0,2,0,0,2,2,0,0,0,2,2,2,0,2,0,2,0,2,0,1,0,0,2,2,2,2,2,0,2,2,0,0,0,0,2,2,0,0,2,2,2,0,2,0,2,0,0,0,2,0,2,2,2,2,2,2,2,0,2,2,0,2,0,0,0,2,2,0,2,0,2,2,2,2,2,2,2,2,2,0,0,2,2,0,0,2,2,0,2,2,0,0,2,2,0,0,0,2,2,2,2,0,0,0,0,2,2,0,2,2,0,0,2,0,0,0,0,2,1,2,2,2,0,2,0,2,2,0,2,0,2,2,0,0,2,0,2,0,0,0,2,0,2,0,0,0,2,2,2,2,0,2,2,0,2,0,0,0,2,0,0,2,0,0,2,2,0,2,2,0,0,2,2,0,0,0,0,2,0,0,0,2,2,2,0,2,0,2,2,2,0,0,0,2,0,0,0,2,2,0,0,2,2,0,2,2,0,0,1,2,0,0,2,0,0,0,2,0,2,0,2,2,2,2,0,2,2,2,0,2,2,0,2,2,2,0,2,2,2,0,2,2,2,0,0,0,2,0,2,0,2,0,2,2,2,0,2,0,0,0,2,2,2,2,0,0,2,2,2,0,2,2,2,0,0,2,0,0,0,2,2,2,0,0,0,0,0,0,2,0,2,2,2,0,2,0,0,2,2,2,2,0,2,2,2,2,0,0,0,2,2,0,0,2,0,2,2,2,2,0,0,
+		</sequence>
+		<sequence taxon='R1' totalcount='3'>
+0,2,2,2,1,0,0,0,2,0,2,2,0,2,0,2,0,0,0,2,0,0,0,2,2,2,2,0,0,0,2,0,2,0,2,2,2,2,2,2,0,0,0,0,0,2,2,0,2,2,2,2,2,0,0,0,2,2,2,0,0,0,0,2,0,0,0,0,0,0,0,2,2,2,2,0,0,2,2,2,0,0,0,0,2,0,0,2,0,2,0,0,0,2,0,2,2,0,0,0,0,0,2,0,2,2,2,2,0,2,2,0,2,0,2,2,0,0,0,0,0,2,2,0,2,2,0,2,2,0,2,2,2,0,2,0,0,2,0,0,0,2,0,0,0,2,0,2,2,2,0,0,0,0,0,0,0,2,0,0,0,0,2,2,0,2,0,0,0,2,2,0,0,2,2,2,2,0,2,0,0,2,0,2,0,0,2,2,0,0,2,2,2,2,0,0,0,2,2,0,2,0,0,0,2,2,2,0,2,0,0,0,0,2,0,2,2,0,0,0,0,0,0,0,0,2,2,2,0,0,0,0,2,0,2,0,2,0,2,0,0,2,0,0,2,2,2,2,0,0,2,0,2,2,2,2,0,2,0,0,2,0,2,2,2,2,2,0,2,0,0,0,2,0,0,2,2,0,2,2,0,0,0,2,2,0,2,0,2,2,0,0,2,2,0,0,2,0,0,2,0,2,2,2,0,2,0,0,0,2,2,2,0,0,2,0,2,2,2,0,0,0,2,0,0,2,2,0,0,0,0,0,0,0,0,0,0,2,0,2,0,0,0,2,0,2,2,0,0,2,0,0,2,0,2,0,0,2,0,2,0,0,2,0,2,2,2,2,0,2,0,2,2,0,0,2,2,2,0,0,0,2,2,2,0,2,2,2,0,0,0,2,0,2,2,0,0,0,0,0,0,0,2,0,0,2,2,2,2,0,0,2,0,0,2,2,2,0,0,0,0,0,0,2,2,2,0,0,0,2,0,0,2,2,2,2,2,0,2,2,2,0,0,0,2,2,0,2,2,0,0,0,2,2,0,2,2,0,0,2,0,0,2,2,2,0,0,0,2,2,2,2,2,2,0,2,2,0,2,0,2,2,0,0,2,2,0,2,0,0,0,0,0,2,0,2,2,2,2,0,0,0,0,2,0,0,0,2,0,0,0,0,0,0,0,0,0,2,2,0,0,0,2,2,2,2,0,0,0,2,0,2,2,0,0,2,0,0,2,2,2,2,2,0,0,0,2,0,2,2,0,0,2,2,0,2,2,2,2,0,2,0,2,0,2,2,0,2,0,0,2,0,0,0,0,0,2,2,2,2,0,2,2,0,2,0,2,0,0,2,2,2,2,0,0,2,0,2,0,0,2,0,0,0,2,2,2,2,2,0,0,0,2,2,2,2,0,2,0,2,0,2,2,0,2,0,0,0,0,2,2,2,0,0,0,0,0,0,0,0,2,0,0,2,2,2,2,2,0,0,0,2,0,0,0,0,2,2,2,2,0,2,2,2,2,0,0,2,2,0,0,2,2,0,2,2,0,2,2,0,2,0,0,2,2,0,0,0,2,0,2,0,0,0,2,0,2,0,0,0,0,2,0,2,2,0,0,2,2,0,1,2,0,2,2,2,0,2,2,2,0,2,0,2,0,2,0,2,0,2,2,0,2,2,2,2,0,2,2,0,2,2,0,0,2,0,0,2,0,2,2,2,2,2,2,2,2,2,0,0,2,2,0,0,2,2,0,2,2,0,0,0,2,0,0,0,2,2,2,0,0,0,0,0,2,2,0,0,2,0,0,2,0,0,2,0,2,0,2,2,2,0,2,0,2,2,2,2,0,2,2,0,0,0,0,2,0,0,0,2,2,2,0,0,0,2,2,2,2,0,2,2,0,2,0,0,0,2,0,2,2,0,0,2,2,0,2,2,0,2,2,2,0,0,2,0,0,0,2,0,1,2,2,0,0,0,2,2,2,0,0,0,2,0,0,2,2,2,0,0,2,2,0,2,2,0,0,0,2,0,0,2,0,0,0,2,0,2,0,2,2,2,2,0,2,2,2,0,2,2,2,2,2,2,0,2,2,2,0,2,2,2,0,0,0,2,0,0,0,2,0,2,2,2,0,2,0,0,0,0,2,0,2,0,0,2,2,2,2,2,2,2,0,0,2,0,0,0,2,2,2,2,0,0,2,0,0,2,2,2,2,2,0,2,0,0,2,2,2,0,0,2,2,2,2,0,0,0,2,2,0,0,2,0,2,2,2,2,2,2,
+		</sequence>
+		<sequence taxon='Q1' totalcount='3'>
+2,2,2,2,2,0,0,0,2,2,2,2,0,2,0,2,0,2,0,2,0,2,0,2,2,2,2,0,0,0,2,0,0,0,2,2,2,2,0,2,0,0,0,0,0,2,2,0,2,2,2,2,2,0,0,0,0,2,2,0,0,0,0,2,0,0,0,0,0,0,0,2,2,2,2,2,0,2,2,2,2,0,0,0,2,0,0,2,0,2,0,1,0,0,0,2,2,0,0,0,0,0,2,0,2,2,2,2,0,2,2,0,2,0,2,2,0,2,0,0,0,2,2,0,2,2,0,2,2,0,2,2,2,0,2,0,0,2,0,0,0,2,0,0,0,2,0,2,2,2,0,0,0,0,0,0,0,0,1,0,0,0,2,0,0,2,0,0,0,2,2,0,0,2,2,2,1,0,2,1,0,2,0,2,0,0,0,2,0,0,2,2,0,2,0,0,0,2,2,0,2,0,0,0,2,2,2,0,2,0,0,0,0,2,0,2,2,0,0,0,0,0,0,0,0,2,2,2,0,0,0,0,2,0,2,0,2,0,2,0,0,2,0,0,2,2,2,2,0,0,2,0,2,2,2,2,2,2,0,0,2,0,2,0,2,2,2,0,2,1,0,0,2,0,0,2,2,0,2,2,0,0,0,2,0,0,2,0,2,2,0,0,2,2,0,0,2,0,0,2,0,2,2,2,2,2,0,0,0,2,2,2,0,0,2,0,2,2,2,0,0,0,2,0,0,2,2,0,0,0,0,0,0,0,2,0,0,2,0,2,0,0,0,2,0,2,2,0,0,2,0,0,2,0,2,0,0,2,1,0,0,0,2,0,2,2,2,2,0,2,0,2,0,2,0,2,2,2,0,0,0,2,0,2,0,2,2,2,0,0,0,2,0,2,2,0,0,0,0,0,2,0,2,0,0,2,2,2,2,0,1,2,2,0,2,2,2,0,0,0,0,0,0,2,2,2,0,0,0,2,0,0,2,2,2,2,2,0,2,2,2,0,0,0,2,2,0,2,2,0,0,0,2,2,0,2,2,2,0,2,0,0,2,2,2,0,0,0,2,2,2,2,0,2,0,2,2,0,2,0,2,2,0,0,2,2,0,2,0,0,0,0,0,2,0,2,2,2,2,0,0,0,0,2,0,2,0,2,0,0,0,0,2,2,0,0,0,2,2,0,0,0,2,2,2,2,0,0,0,0,0,2,2,0,0,2,0,0,2,0,0,2,2,0,0,0,0,0,2,2,0,0,2,0,0,2,2,2,2,0,2,0,2,0,2,2,0,0,0,0,2,0,0,0,0,0,2,2,2,2,0,2,2,0,2,0,2,0,0,2,2,2,2,0,0,2,0,2,0,0,2,0,0,0,2,2,2,2,2,0,0,0,2,2,2,2,0,2,0,2,0,2,2,0,2,0,0,0,0,2,2,2,0,0,0,0,0,0,0,0,2,0,0,2,0,2,2,2,0,0,0,2,0,0,0,0,2,2,2,2,0,2,2,2,2,0,0,2,2,0,0,2,2,0,2,2,0,2,2,0,2,0,2,2,2,0,0,0,2,2,2,0,0,0,2,0,2,0,0,0,0,2,0,2,2,2,0,2,2,0,0,2,0,2,2,0,0,2,2,2,0,1,0,2,0,2,0,2,0,2,2,0,2,2,2,2,0,2,2,2,2,2,0,0,2,0,0,2,0,2,2,2,1,2,2,2,2,2,0,0,2,2,0,0,2,2,0,2,2,0,0,0,2,0,0,0,2,2,2,2,0,0,0,0,2,2,0,2,2,0,0,2,0,0,2,0,2,0,0,2,2,0,2,0,2,2,2,2,0,2,2,0,0,2,0,2,0,0,0,2,2,2,0,0,0,2,2,0,2,0,2,2,0,2,0,0,0,2,0,1,2,0,0,2,2,0,2,2,0,2,2,2,0,0,2,0,0,0,2,2,2,2,2,0,1,0,2,2,2,2,0,0,0,0,0,2,2,2,0,0,2,2,0,2,2,2,0,0,2,0,0,0,0,0,0,2,0,2,0,2,2,2,2,0,2,2,2,0,2,2,0,2,2,2,0,2,2,2,0,2,2,2,0,0,0,2,0,2,0,2,2,2,2,2,0,2,0,0,0,0,2,0,2,0,0,2,2,2,2,2,2,2,0,0,2,0,0,0,2,2,2,2,0,0,2,0,0,2,2,2,2,2,0,2,0,0,2,2,2,0,0,2,2,2,2,0,0,0,2,2,0,0,2,0,2,2,2,2,2,2,
+		</sequence>
+		<sequence taxon='A1' totalcount='3'>
+2,2,2,2,2,0,0,1,2,2,2,2,2,2,0,2,0,0,0,2,0,2,0,2,2,2,2,0,0,0,0,0,0,0,2,2,2,2,2,2,0,0,2,0,0,2,2,0,2,2,2,2,2,0,0,0,0,2,2,2,0,0,0,2,0,0,0,2,0,0,0,2,2,2,2,2,0,2,2,2,2,0,2,0,2,0,0,2,0,2,0,0,0,1,0,2,2,0,0,0,0,0,2,0,2,2,2,2,0,2,2,1,2,0,2,2,2,2,0,0,0,2,2,0,2,2,0,2,2,0,2,2,2,2,2,0,0,2,0,0,2,2,0,0,0,2,0,2,2,2,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,2,0,0,0,2,2,0,0,2,2,2,2,0,2,0,0,0,0,2,0,0,2,2,0,0,2,2,0,2,0,0,0,2,2,0,0,0,0,0,2,2,2,0,2,0,0,0,0,2,0,2,2,0,0,0,0,0,0,0,0,2,2,2,0,0,0,0,2,0,2,0,2,0,2,0,0,2,0,0,0,2,2,2,0,0,2,0,2,2,0,2,2,2,0,0,2,0,2,0,2,2,2,0,2,0,0,0,2,0,0,2,2,0,2,2,0,0,0,2,1,0,2,0,2,2,0,0,2,2,0,0,2,0,0,2,0,2,2,2,2,2,0,0,0,0,2,2,0,0,2,0,2,2,2,0,0,0,2,0,0,1,2,2,0,0,0,0,0,0,2,0,0,2,0,2,0,0,0,0,0,2,2,0,0,0,0,0,2,0,2,0,0,2,2,1,0,0,2,0,2,2,2,2,0,2,0,2,0,2,0,2,2,2,0,0,0,2,0,2,0,0,2,2,0,2,0,2,0,2,2,0,0,0,0,1,2,2,2,0,0,2,2,2,2,0,0,2,2,0,2,2,2,1,0,0,0,0,0,2,0,2,0,0,0,2,0,0,2,2,2,2,2,0,2,2,2,0,0,0,2,0,0,2,2,0,0,0,1,2,0,2,2,0,0,2,0,0,2,2,2,0,0,0,2,2,2,2,0,2,0,2,2,0,2,0,2,2,1,0,2,1,0,2,0,0,0,0,0,0,0,2,2,2,2,1,0,0,0,0,0,2,0,2,0,0,0,0,0,2,0,0,0,0,2,0,0,0,0,2,2,2,0,0,0,0,2,2,2,0,0,2,0,0,2,1,2,2,2,0,0,0,2,0,2,2,0,0,2,0,0,2,2,0,1,0,2,0,2,0,2,2,1,2,2,0,2,0,0,0,0,0,2,2,2,2,0,2,2,0,2,0,2,0,0,2,2,2,2,0,0,2,0,0,0,0,2,0,0,0,2,2,2,2,2,0,0,0,2,2,2,2,0,2,0,2,0,2,2,0,2,0,0,0,0,0,2,2,2,0,0,0,0,0,0,2,2,0,0,0,2,2,2,2,0,0,0,2,0,0,0,0,2,2,0,2,0,2,2,2,2,0,0,2,2,0,0,2,2,0,2,2,0,2,2,0,2,0,0,2,1,0,0,0,2,2,2,0,2,0,2,0,2,0,0,0,0,2,0,2,2,2,0,2,2,0,0,0,0,2,2,0,0,2,2,2,0,2,0,2,0,2,0,2,0,2,2,1,2,2,2,2,0,2,2,0,2,0,0,0,2,2,0,2,0,2,2,2,2,2,2,2,2,0,0,0,2,2,0,0,2,2,0,2,2,0,0,0,2,0,0,0,2,2,2,2,0,0,0,0,2,2,0,2,2,0,0,2,0,0,0,0,2,0,0,2,2,0,2,0,2,2,0,2,0,2,2,0,0,2,0,2,0,0,0,2,2,2,0,0,0,2,2,2,2,0,2,2,0,2,0,0,0,2,0,0,2,0,0,2,2,0,2,2,0,0,2,2,0,0,2,0,0,0,2,0,2,2,2,0,0,0,2,2,2,2,0,0,0,0,0,1,2,2,0,0,2,2,0,2,2,2,0,0,2,0,0,0,0,0,0,2,0,2,0,2,2,2,2,0,2,2,2,0,2,2,0,2,2,2,0,2,2,2,0,2,2,2,0,0,0,2,0,2,0,2,0,2,2,2,0,2,0,0,0,2,2,0,2,0,0,2,2,2,0,2,2,2,0,0,2,0,0,0,0,2,2,0,0,0,1,0,0,2,2,2,2,2,0,2,0,0,2,2,2,2,0,2,2,2,2,1,0,0,2,2,0,0,2,0,2,2,2,2,2,2,
+		</sequence>
+		<sequence taxon='L1' totalcount='3'>
+2,2,2,2,2,0,0,0,2,2,2,2,0,2,0,2,0,0,0,2,0,2,0,2,1,2,2,0,0,0,1,2,0,0,2,2,2,2,2,2,0,0,0,0,0,2,2,0,2,2,2,2,2,0,0,0,2,2,0,0,0,0,0,2,0,0,0,0,2,0,0,2,2,2,2,2,0,2,2,2,2,0,2,2,2,0,0,2,0,2,0,0,0,2,0,2,2,0,0,0,0,0,2,0,2,2,2,2,0,2,2,0,2,0,2,2,0,2,0,0,0,2,2,0,2,2,0,2,2,0,2,2,2,2,2,0,0,2,0,0,0,2,0,0,0,2,0,2,2,2,0,0,0,0,0,0,0,2,0,0,0,0,2,0,0,2,0,0,0,2,2,0,0,2,2,2,0,0,2,0,0,0,1,2,0,0,2,2,0,0,2,2,0,2,0,0,0,2,2,0,2,0,0,0,2,2,2,0,0,0,0,0,1,1,0,2,2,0,0,0,0,0,0,0,0,2,2,2,0,0,0,0,2,0,2,0,2,0,2,0,0,2,0,0,0,2,2,2,0,0,2,0,2,2,2,2,2,2,2,0,0,0,2,0,2,2,2,0,2,0,0,0,2,0,0,2,2,0,2,2,0,0,0,2,2,0,2,0,2,2,0,0,2,2,0,0,2,0,0,2,0,0,2,2,2,2,2,0,0,2,2,2,0,0,2,0,2,2,2,0,0,0,2,0,0,2,2,0,0,0,0,0,0,0,2,0,0,2,0,2,0,0,0,2,0,2,2,0,0,2,0,0,2,0,2,0,0,2,2,0,0,0,2,0,2,2,0,2,0,2,0,2,0,2,0,2,2,2,0,0,0,2,0,2,0,2,2,2,0,1,0,2,0,2,2,0,0,1,0,0,2,2,0,0,0,2,2,2,2,0,0,2,2,0,2,2,2,0,0,0,0,0,0,0,2,2,0,0,0,2,0,0,2,2,2,2,2,0,2,2,2,0,0,0,2,0,0,0,2,0,0,2,2,2,0,2,2,0,0,2,0,0,2,2,2,2,0,0,2,2,2,2,0,2,0,2,2,0,2,0,2,2,0,0,2,2,0,2,0,0,0,0,0,2,0,2,2,2,2,2,0,0,0,2,0,2,0,2,0,0,2,0,0,2,0,0,0,0,2,0,0,0,2,2,2,2,0,0,0,0,0,2,2,0,0,2,0,0,2,2,2,2,2,0,0,0,2,0,2,2,0,0,2,0,0,2,2,0,2,0,2,0,2,0,2,2,2,2,0,0,2,0,0,0,0,0,2,2,2,2,0,2,2,0,2,0,2,0,0,2,2,2,0,0,0,2,0,2,0,0,2,0,0,0,2,2,2,2,2,0,0,0,2,2,2,2,0,2,0,2,0,2,2,0,0,0,0,2,2,2,2,2,2,0,0,0,0,0,0,2,2,0,0,2,2,2,2,2,0,0,0,2,0,0,0,0,2,2,2,2,0,2,2,2,2,0,0,2,2,0,0,2,2,0,2,2,0,2,2,0,2,0,0,2,2,0,0,0,2,0,2,0,0,0,2,0,2,0,0,0,0,2,0,2,2,2,0,2,2,0,0,2,0,2,2,0,0,2,2,2,0,2,0,2,0,2,0,2,0,2,2,0,2,2,2,2,0,2,2,2,2,2,0,0,2,0,0,2,0,2,2,2,2,2,2,2,2,2,0,0,2,2,0,0,2,2,0,2,2,0,0,0,2,0,0,0,2,2,2,2,0,0,0,0,2,2,0,0,2,0,0,2,0,0,0,0,2,0,0,2,2,0,2,0,2,1,2,2,0,2,2,0,0,2,0,2,0,0,0,2,2,2,0,0,0,2,2,0,2,0,2,2,0,0,0,0,0,2,0,0,2,0,0,2,0,0,2,2,0,2,2,2,0,0,2,0,0,0,2,0,2,2,2,0,0,0,2,2,2,0,0,0,2,0,0,2,2,2,0,0,2,2,0,2,2,0,0,0,2,0,0,0,0,0,0,2,0,2,0,2,2,2,2,0,2,2,2,0,2,2,0,2,2,0,0,2,2,2,0,2,2,2,0,0,0,2,0,2,0,2,0,2,2,2,0,2,0,0,0,0,2,0,2,0,0,0,2,2,2,2,2,2,0,0,2,0,0,0,2,2,2,2,0,0,2,0,0,2,0,2,2,2,0,2,0,0,2,2,2,0,0,2,2,2,2,0,2,0,2,2,0,0,2,0,2,2,2,2,2,2,
+		</sequence>
+	</rawdata>
+
+
+		<taxonset id='C' spec='TaxonSet'>
+			<taxon id='C1' spec='Taxon'/>
+		</taxonset>
+		<taxonset id='R' spec='TaxonSet'>
+			<taxon id='R1' spec='Taxon'/>
+		</taxonset>
+		<taxonset id='Q' spec='TaxonSet'>
+			<taxon id='Q1' spec='Taxon'/>
+		</taxonset>
+		<taxonset id='A' spec='TaxonSet'>
+			<taxon id='A1' spec='Taxon'/>
+		</taxonset>
+		<taxonset id='L' spec='TaxonSet'>
+			<taxon id='L1' spec='Taxon'/>
+		</taxonset>
+	</data>
+
+
+	<init spec='beast.util.TreeParser' id='newick:species' IsLabelledNewick='true' adjustTipHeights='false' newick='(((C:0.05,R:0.05):0.05,((A:0.05,L:0.05):0.025,Q:0.075):0.025):0)'/>
+
+
+		<run id='mcmc' spec='MCMC' chainLength='8000000' storeEvery='1000'>
+			<state id='state'>
+			<stateNode id='network:species' spec='snappNetForSimSnappNet.core.NetworkParser' tree='@newick:species'>
+			</stateNode>
+			<parameter id='originTime:species' lower='0.0' name='stateNode'>0.1</parameter>
+	<!-- be careful, originTime:species is a scaling factor, if you do not want to scale anything it has to be set to the same value as origin (the height of) the network -->
+			<parameter id='netDivRate:species' lower='0.0' name='stateNode'>2.0</parameter>
+			<parameter id='turnOverRate:species' lower='0.0' upper='1.0' name='stateNode'>0.5</parameter>
+			<parameter id='u' lower='0.0' upper='1.0' name='stateNode'>1</parameter>
+			<parameter id='v' lower='0.0' upper='1.0' name='stateNode'>1</parameter>
+			<parameter id='coalescenceRate' lower='0.0' upper='1.0' name='stateNode'>400</parameter>
+			</state>
+
+	<init id='SNI' spec='snappNetForSimSnappNet.core.MySpeciesNetworkInitializerWithoutEmbedding' estimate='false' method='random' speciesNetwork='@network:species' origin='@originTime:species'>
+	</init>
+
+	<distribution id='posterior' spec='util.CompoundDistribution'>
+		<distribution id='prior' spec='util.CompoundDistribution'>
+			<distribution id='networkPrior' spec='snappNetForSimSnappNet.core.BirthHybridizationModel' network='@network:species' netDiversification='@netDivRate:species' turnOver='@turnOverRate:species' betaShape='1.0'/>
+			 <prior id='networkOrigin' name='distribution' x='@originTime:species'>
+				 <Exponential id='exponential.0' name='distr' mean='0.1'/>
+			 </prior>
+			<prior id='netDivPrior' name='distribution' x='@netDivRate:species'>
+				<Exponential id='exponential.01' name='distr' mean='10.0'/>
+			</prior>
+			<prior id='turnOverPrior' name='distribution' x='@turnOverRate:species'>
+				<Beta id='betadistr.01' name='distr' alpha='1.0' beta='1.0'/>
+			</prior>
+			<prior id='uPrior' name='distribution' x='@u'>
+				<OneOnX id='OneOnX.2' name='distr'/>
+			</prior>
+			<prior id='vPrior' name='distribution' x='@v'>
+				<OneOnX id='OneOnX.3' name='distr'/>
+			</prior>
+			<distribution spec='snappNetForSimSnappNet.core.SnappNetPrior' name='distribution' id='snapprior' coalescenceRate='@coalescenceRate'>
+				<parameter id='alpha' estimate='false' lower='0.0' name='alpha'>1.0</parameter>
+				<parameter id='beta' estimate='false' lower='0.0' name='beta'>200.0</parameter>
+			</distribution>
+		</distribution>
+		<distribution id='likelihood' spec='snappNetForSimSnappNet.core.SnappNetNetworkLikelihood' data='@snapalignment' speciesNetwork='@network:species' mutationRateU='@u'  mutationRateV='@v' coalescenceRate='@coalescenceRate'>
+		</distribution>
+	</distribution>
+
+	 <operator id='divrRateScale:species' spec='ScaleOperator' parameter='@netDivRate:species' scaleFactor='0.5' weight='10.0'/>
+	 <operator id='turnOverScale:species' spec='ScaleOperator' parameter='@turnOverRate:species' scaleFactor='0.5' weight='10.0'/>
+	 <operator id='gammaProbUniform:species' spec='snappNetForSimSnappNet.operators.InheritanceProbUniform' speciesNetwork='@network:species' weight='10.0'/>
+	 <operator id='gammaProbRndWalk:species' spec='snappNetForSimSnappNet.operators.InheritanceProbRndWalk' speciesNetwork='@network:species' weight='10.0'/>
+	 <operator id='originMultiplier:species' spec='snappNetForSimSnappNet.operators.OriginMultiplier' speciesNetwork='@network:species' origin='@originTime:species' weight='0.0'/>
+	 <operator id='addReticulation:species' spec='snappNetForSimSnappNet.operators.AddReticulation' speciesNetwork='@network:species' weight='10.0' coalescenceRate='@coalescenceRate'/>
+	<operator id='deleteReticulation:species' spec='snappNetForSimSnappNet.operators.DeleteReticulation' speciesNetwork='@network:species' weight='10.0'  coalescenceRate='@coalescenceRate'/>
+	<operator id='networkMultiplier:species' spec='snappNetForSimSnappNet.operators.NetworkMultiplier' speciesNetwork='@network:species' origin='@originTime:species' weight='5.0'/>
+	 <operator id='flipReticulation:species' spec='snappNetForSimSnappNet.operators.FlipReticulation' speciesNetwork='@network:species' weight='10.0'/>
+	 <operator id='relocateBranch:species' spec='snappNetForSimSnappNet.operators.RelocateBranchNarrow' speciesNetwork='@network:species' weight='30.0'/>
+	 <operator id='nodeSlider:species' spec='snappNetForSimSnappNet.operators.NodeSlider' speciesNetwork='@network:species' origin='@originTime:species' isNormal='true' sigma='0.005' weight='10.0'/>
+	 <operator id='NodeUniform:species' spec='snappNetForSimSnappNet.operators.NodeUniform' speciesNetwork='@network:species' weight='10.0'/>
+	 <operator id='relocateBranchNarrow:species' spec='snappNetForSimSnappNet.operators.RelocateBranchNarrow' speciesNetwork='@network:species' weight='10.0'/>
+	 <operator id='ChangeUAndV' spec='snappNetForSimSnappNet.operators.ChangeUAndV' u='@u' v='@v' window='0.1'  weight='10'/>
+	 <operator id='ChangeGamma' spec='snappNetForSimSnappNet.operators.ChangeGamma'  scale='0.5' weight='10' coalescenceRate='@coalescenceRate'/>
+	 <operator id='ChangeAllGamma' spec='snappNetForSimSnappNet.operators.ChangeAllGamma'  scale='0.5' weight='10' coalescenceRate='@coalescenceRate'/>
+
+	<logger id='screenlog' logEvery='1000' model='@posterior'>
+		 <log idref='posterior'/>
+		 <log id='ESS.0' spec='util.ESS' arg='@posterior'/>
+		 <log idref='likelihood'/>
+		 <log idref='prior'/>
+	</logger>
+	<logger id='tracelog' fileName='test_3s.xml.trace.log' logEvery='1000' model='@posterior' sort='smart'>
+		 <log idref='posterior'/>
+		 <log idref='likelihood'/>
+		 <log idref='prior'/>
+		 <log idref='netDivRate:species'/>
+		 <log idref='turnOverRate:species'/>
+		 <log idref='originTime:species'/>
+		 <log id='height:species' speciesNetwork='@network:species' spec='snappNetForSimSnappNet.core.NetworkStatLogger'/>
+		 <log idref='u'/>
+		 <log idref='v'/>
+	 </logger>
+	<logger id='specieslog' fileName='test_3s.xml.species.trees' logEvery='1000' mode='tree'>
+		<log id='networkLogger:species' spec='snappNetForSimSnappNet.core.NetworkWithMetaDataLogger' speciesNetwork='@network:species' coalescenceRate='@coalescenceRate'/>
+	 </logger>
+</run>
+
+
+</beast>
