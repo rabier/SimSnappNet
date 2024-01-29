@@ -23,5 +23,5 @@ This count data can be analyzed with SnappNetForSimSnappNet (see the repository 
 
 ***********************************************************************************************************************************
 
- SimSnappNet is described at http://charles-elie.rabier.pagesperso-orange.fr/doc/SimSnappNet.html
+ SimSnappNet is described at  https://rabier.github.io/doc/SimSnappNet.html
  
